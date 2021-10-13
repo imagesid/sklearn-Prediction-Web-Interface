@@ -35,6 +35,6 @@ function skit($samples,$targets,$predict,$debug=false){
 $samples = [[13.4,13.4,36.2,30.1,60.3,60.3]];
 $targets = [[10.7]];
 $predict = [[13.6,13.6,37.6,30.5,61.9,61.9]];
-$prediction=skit($samples1,$targets1,[$predict[$i]]);
+$prediction=skit($samples,$targets,$predict);
 echo "Your prediction is: " . $prediction;
 ?>
