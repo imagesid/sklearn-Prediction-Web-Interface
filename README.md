@@ -1,6 +1,9 @@
 # sklearn-Prediction-Web-Interface
 Simple script to help you to bridge sklearn prediction with another software such PHP and javascript etc. It uses TCP request.
+
 There are two files in here, serve-web.py is python script to serve TCP port 8080 and after that the model can be used by another interface such PHP, Javascript, CURL, etc. File example-client.php is an example to connect into your sklearn model.
+
+Keyword : sklearn Prediction Web Interface, skit, http, urllib
 
 # How to use:
 1. Upload file serve-web.py into your server
